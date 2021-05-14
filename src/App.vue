@@ -14,6 +14,11 @@ html {
 
 body {
   margin: 0;
+  font-size: 14px;
+}
+
+p {
+  line-height: 1.75rem;
 }
 
 #app { /* #app tag is include in @/public/index.html */
@@ -27,10 +32,18 @@ body {
 
 a {
   color: #c02;
+  text-decoration: none;
 
   &:hover {
     color: #e00;
   }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poiret One", cursive;
+  font-size: 2em;
+  font-weight: normal;
+  margin-left: 6rem;
 }
 </style>
 

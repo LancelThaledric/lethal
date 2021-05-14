@@ -24,6 +24,7 @@ export default class LTHeader extends Vue {}
   position: fixed;
   width: 100%;
   background: rgba(#fff, 0.95);
+  z-index: 100;
 
   &::before {
     content: "";
